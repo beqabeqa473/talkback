@@ -675,7 +675,6 @@ public class FailoverTextToSpeech {
     mTts.setAudioAttributes(
         new AudioAttributes.Builder()
             .setUsage(AudioAttributes.USAGE_ASSISTANCE_ACCESSIBILITY)
-            .setFlags(AudioAttributes.FLAG_LOW_LATENCY)
             .build());
 
     LogUtils.i(TAG, "Switched to TTS engine: %s", tempTtsEngine);

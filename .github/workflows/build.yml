@@ -22,3 +22,9 @@ jobs:
       run: |
         export ANDROID_SDK=${ANDROID_SDK_ROOT}
         ./build.sh
+
+    - name: Upload App Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: talkback-debug.apk
+        path: ./build/outputs/apk/phone/debug/talkback-phone-debug.apk
