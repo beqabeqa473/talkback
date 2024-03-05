@@ -9,7 +9,7 @@
 # and Java, see the following:
 # https://developer.android.com/build/releases/gradle-plugin#updating-gradle
 # https://docs.gradle.org/current/userguide/compatibility.html
-GRADLE_DOWNLOAD_VERSION=7.3.3
+GRADLE_DOWNLOAD_VERSION=7.5.1
 GRADLE_TRACE=false   # change to true to enable verbose logging of gradle
 
 
